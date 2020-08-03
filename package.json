@@ -1,0 +1,23 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taruna28/submission-frontend-dicoding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taruna28/submission-frontend-dicoding/issues"
+  },
+  "homepage": "https://github.com/taruna28/submission-frontend-dicoding#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
