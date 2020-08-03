@@ -20,3 +20,4 @@ class Data{
 }
 // let search = "spiderman"
 // console.log(Data.searchId("spiderman"))
+export default Data;
