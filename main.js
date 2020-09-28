@@ -22,18 +22,18 @@ const main = () => {
   //   });
   // }
 
-  const renderResult =  results => {
+  const renderResult =  meals => {
       clubListElement.innerHTML = "";
-      results.forEach(club => {
-          const {original_title, poster_path, overview} = club;
+      meals.forEach(current => {
+          const {strMeal, strMealThumb, strInstructions} = current;
           const clubElement = document.createElement("div");
           clubElement.setAttribute("class", "club");
 
           clubElement.innerHTML = `
-            <img class="fan-art-club" src="https://image.tmdb.org/t/p/w500/${poster_path}" alt="Fan Art">
+            <img class="fan-art-club" src=${strMealThumb} alt="Fan Art">
              <div class="club-info">
-                 <h2>${original_title}</h2>
-                 <p>${overview}</p>
+                 <h2>${strMeal}</h2>
+                 <p>${strInstructions}</p>
              </div>`;
 
           clubListElement.appendChild(clubElement);
