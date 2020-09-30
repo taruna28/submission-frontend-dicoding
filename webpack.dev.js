@@ -5,10 +5,10 @@ const {merge} = require("webpack-merge");
 
 module.exports = merge(common,{
   mode: "development",
-  output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, "dist")
-  },
+  // output: {
+  //   filename: "main.js",
+  //   path: path.resolve(__dirname, "dist")
+  // },
 //   plugins: [
 //     new HtmlWebpackPlugin({
 //         template: "./src/template.html",
