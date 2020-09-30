@@ -5,9 +5,9 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack -p",
+    "none": "webpack -p",
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack  --config webpack.prod.js"
+    "start": "webpack  --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
